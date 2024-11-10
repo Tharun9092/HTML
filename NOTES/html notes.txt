@@ -1,0 +1,90 @@
+syntax of html :
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body></body>
+</html>
+
+tags :
+       headings <h1> to <h6> it shows the different sizes according to the heading from  h1 to h6
+       paragraph <p>
+
+Attributes: the characters which we use in the tags
+anchor tags <a></a>
+<a href="link" target="_blank/self/parent/top"> text </a>
+
+--- to call : tel:number
+--- to mail : mailto:mail id
+--- to download : download attribute after href link
+img tag and it is a self closing tag
+<img src="link/path file"  heightand width alt:text">
+Lorem ---- dummy text emmet
+
+formatting tags :
+<strong></strong>  or <bold> 
+<em></em>   or <i></i>
+<mark></mark>
+<ins></ins>
+<del></del>
+<pre></pre>
+<ul></ul>
+<br></br>
+<hr></hr>
+<sub></sub>
+<sup></sup>
+
+lists :
+ordered lists
+unordered lists
+definition lists
+nested lists
+
+Tables:
+the tables can be represented over the html code in the form of tabular format 
+so ,many websites contain the tabular format data 
+the tag we used to print in the tabular format is <table></table>
+
+rows and coloumns
+<tr>--- it represents the table rows
+<th> 0r <td>--- it represents the table coloumns
+
+and the attributes of the tables are :  border and cellspacing and cellpadding
+
+and the another attribute for the inner representation of the coloumns and rows using the <tr> and <td>/<th> are :
+rowspan ---- to combine the rows
+colspan ----- to combine the coloumns
+title of the table can be represented by the tag called <caption>
+block elements in line elements
+Semantic elements 
+header,footer,main,nav,article,aside,figure,section
+it does not change any ui compared to the tags such as div and span
+div to group in differentline
+span to group in same line
+
+& is for copy right
+&# code for EMOJI
+windows and . is for vs code emoji symbols
+
+class and id in the html code for same and unique elements 
+
+forms :
+forms is used to collect the users data 
+
+it contains the labels and input fields
+they are collecting the data using the attributes 
+called --type --placeholder --id --value --name
+
+<label> it contains "for" attribute </label>
+
+<input> it contains --type --id  --name --placeholder --value  -- it is a self closig tag
+
+<button> submit </button>
+
+dropdowns:
+<select>tag is used 
+in that <option> tag is used
+
+to group the options <optgroup> tag is used 
+
+form validations:READ ONLY, DISABLED, MULTIPLE,MIN AND MAX LENGTHS , ETC... 
